@@ -16,7 +16,9 @@ pip3 freeze > requirements.txt
 ### Documentación
 http://127.0.0.1:8000/docs
 
-# Para ejecutar
+## Para ejecutar
 uvicorn main:app
+
+### Puede abrir el archivo de ejercicios con la extencion .ipynb o la puede cambiar a solo .py
 
 
