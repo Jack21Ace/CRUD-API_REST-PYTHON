@@ -66,7 +66,7 @@ class Product:
         ttk.Button(text='Delete Product').grid(row=8, column=2, pady=10, padx=5, sticky=W+E+S+N)
         # Boton para Buscar productos
         ttk.Button(text='Search Product').grid(row=9, column=1, pady=10, padx=5, sticky=W+E+S+N)
-        
+
         # TableView
         self._columns = ('Code', 'Name', 'Price', 'Description', 'Amount')#, 'Is Available', 'Create At')
         self._tree = ttk.Treeview(column=self._columns, show='headings')
