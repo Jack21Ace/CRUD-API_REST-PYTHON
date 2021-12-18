@@ -16,7 +16,10 @@ pip3 freeze > requirements.txt
 ### Documentación
 http://127.0.0.1:8000/docs
 
-# Para ejecutar
+## Para ejecutar
 uvicorn main:app
+
+# -----//-----//-----//-----//-----//-----//-----//-----//-----//-----//-----
+
 
 
